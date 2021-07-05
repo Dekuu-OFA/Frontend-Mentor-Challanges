@@ -1,0 +1,134 @@
+body{
+    text-align: center;
+    background-image: url("images/bg-top.svg");
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(233, 13%, 49%);
+    margin: 5% 10%;
+    line-height: 2;
+    background-color: hsl(240, 78%, 98%);
+}
+.main{
+    margin : 5% 7%;
+}
+
+/* button */
+
+.form-check-input{
+   text-align: center;
+}
+
+/* content */
+
+h1{
+    color: hsl(232, 13%, 33%);
+}
+.plans{
+    color: hsl(234, 14%, 74%);
+}
+.box{
+    background-color:  #fff;
+    border-radius: 10px;
+     border: 3px solid hsl(240, 78%, 98%);
+     padding: 3%;
+}
+.box-2{
+    color: #fff;
+    border-radius: 10px;
+    background-image: linear-gradient(hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    padding: 3%;
+    transform: scale(1.08);
+}
+.cont{
+    color: #fff;
+}
+.monthly{
+    font-size: 4vw;
+}
+.butt-1{
+    padding: 3%;
+    font-size: .8rem;
+    background-image: linear-gradient(hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    border-radius: 5px;
+    border: none;
+}
+.butt-1:hover{
+    background-image: none;
+    color: hsl(237, 63%, 64%);
+    border: 1px solid hsl(237, 63%, 64%);
+}
+.butt-2{
+    padding: 3%;
+    font-size: .8rem;
+    background-color: #fff;
+    color: hsl(237, 63%, 64%);
+    border-radius: 5px;
+    border: none;
+}
+.butt-2:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.container{
+    text-align: center;
+}
+.toggle-title{
+    margin-bottom: 1.5rem;
+}
+.toggle{
+    margin-bottom: 1rem;
+    appearance: none;
+    background: linear-gradient(hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
+}
+.toggle-switch{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.toggle::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4px;
+}
+.toggle:checked::before{
+    right: 42%;
+}
+
+@media (max-width:768px) {
+    .main{
+        margin: 0;
+    }
+    h1{
+        font-size: 4rem !important;
+    }
+    h2{
+        margin: 20% 0 15% 0 !important;
+    }
+    .body{
+        font-size: 16px;
+    }
+    .box{
+        padding: 10%;
+        margin: 6% 2%;
+    }
+    .box-2{
+        padding: 10%;
+        margin: 6% 2%;
+        transform: none;
+    }
+}

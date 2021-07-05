@@ -1,0 +1,63 @@
+body{
+    background-image: url("images/bg-desktop.svg");
+    background-color:  hsl(257, 40%, 49%);
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+.ill{
+    max-width: 100%;
+    max-height: 100%;
+}
+h1{
+    font-family: Poppins;
+    font-weight: 600;
+}
+button{
+    color: hsl(257, 40%, 49%) !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+    font-family: Poppins;
+    font-weight: 400;
+    width: 40%;
+    border-radius: 2rem !important;
+    padding: 0.5rem 0.75rem !important;
+}
+.header{
+    margin: 3%;
+    width: 20%;
+}
+.main{
+    margin: 3%;
+}
+.textt{
+    padding: 5%;
+}
+.icons{
+    text-align: right;
+    margin-right: 2rem;
+}
+.ico{
+    margin: 0.3rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 0.5rem ;
+}
+.fb{
+    height: 48px;
+    width: 48px !important;
+}
+.ins{
+    height: 48px;
+    width: 48px !important;
+}
+@media(max-width: 768px){
+    body{
+        background-image: url("images/bg-mobile.svg");
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,72 @@
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color:  hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.offer{
+    color: #fff;
+    padding: 2%;
+}
+.row{
+    margin: 7% 10%;
+}
+.info{
+    padding: 15% 2%;
+}
+.letter{
+    background-color: hsl(248, 32%, 49%);
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 7%;
+    box-shadow: 0 6px hsla(249, 10%, 26%, 0.3) ;
+}
+.butt{
+    margin: 5% 0 3% 0;
+    padding: 3%; 
+    color: #fff; 
+    background-color:  hsl(154, 59%, 51%);
+    font-weight: 600;
+    box-shadow: 0 3px rgba(46, 179, 121, 0.7);
+    border:none;
+}
+.butt:hover
+{
+    background-color: hsl(154, 57%, 66%);
+}
+.data{
+    text-align: center;
+}
+.formm{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px hsla(249, 10%, 26%, 0.3) ;
+}
+.form-group{
+    padding: 3% 0 0 0;
+}
+form{
+    padding: 7%;
+}
+.error-icon{
+    float: right;
+    position: relative;
+    bottom: 40px;
+    right: 16px;
+    display: none;
+    color: hsl(0, 100%, 74%) ;
+}
+.error-text{
+    display: none;
+    text-align: right;
+    color: hsl(0, 100%, 74%) ;
+    font-style: italic;
+}
+@media(max-width:768px){
+    .info{
+        text-align: center;
+    }
+    .error-icon{
+        bottom: 32px;
+    }
+}
